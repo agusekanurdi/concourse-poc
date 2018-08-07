@@ -1,4 +1,4 @@
-FROM openjdk:10.0.2-13-jdk-sid
+FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 ARG JAR_FILE
 COPY ${JAR_FILE} app.jar
