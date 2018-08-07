@@ -1,0 +1,6 @@
+resources:
+- name: source-code
+  type: git
+  source:
+    uri: D:\Agussss\Developments\CI-CD\GitServer\aguseka.git
+    branch: master
