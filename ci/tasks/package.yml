@@ -3,8 +3,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: java
-    tag: "10"
+    repository: aguseka/java
 
 inputs:
 - name: source-code
