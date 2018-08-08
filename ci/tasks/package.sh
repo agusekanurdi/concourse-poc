@@ -3,4 +3,4 @@
 set -e -u -x
 
 cd source-code/
-./mvnw package
+./mvnw clean package dockerfile:push
