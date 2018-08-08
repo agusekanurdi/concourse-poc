@@ -4,7 +4,7 @@ image_resource:
   type: docker-image
   source:
     repository: aguseka/concourse-poc
-    tag: "latest"
+    tag: "0.0.1-SNAPSHOT"
 
 inputs:
 - name: source-code
